@@ -1,5 +1,4 @@
 #include <iostream>
-#include<string>
 #include<conio.h>
 #include<stdlib.h>
 #define line cout<<endl;
@@ -16,12 +15,12 @@ int ts;
 struct student    //Structure student is made to store student attributes.
 { 
   int IDno; 
-  char name[30];
-  char hostel[15];
-  char mobile[15];
+  string name;
+  string hostel;
+  string mobile;
   int dues;
   int meals;
-  char email[20];
+  string email;
 };
 
 student rec[50];  //This is basic array of defined structure to sore data.
